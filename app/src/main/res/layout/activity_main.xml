@@ -61,7 +61,7 @@
             android:paddingBottom="8dp"
             android:gravity="bottom"
             android:textSize="16sp"
-            android:background="#A282CC"
+            android:background="#cc8682"
             android:textColor="#FFFFFF"
             android:layout_weight="1.5"
             android:text="Udacity\n2465 Latham St\nMountain View, CA 94043\n650-555-5555" />
