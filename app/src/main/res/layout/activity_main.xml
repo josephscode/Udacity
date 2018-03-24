@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context="com.example.josephbe.udacity.MainActivity">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:background="#14C3BC"
+        tools:context="com.example.josephbe.udacity.MainActivity">
+
+        <ImageView
+            android:id="@+id/img_udacity_icon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="8dp"
+            android:layout_weight="1"
+            android:background="#14C3BC"
+            android:scaleType="fitCenter"
+            android:layout_gravity="left"
+            android:src="@drawable/udacity_icon" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:weightSum="8.5"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        tools:context="com.example.josephbe.udacity.MainActivity">
+        <ImageView
+            android:id="@+id/image_bg"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#483A43"
+            android:layout_weight="7"
+            android:scaleType="centerCrop"
+            android:src="@drawable/udacity_2" />
+        <!--android:layout_margin="20dp"-->
+
+        <TextView
+            android:id="@+id/txt_Message"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingLeft="8dp"
+            android:paddingBottom="8dp"
+            android:gravity="bottom"
+            android:textSize="16sp"
+            android:background="#A282CC"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1.5"
+            android:text="Udacity\n2465 Latham St\nMountain View, CA 94043\n650-555-5555" />
+
+    </LinearLayout>
+</LinearLayout>
